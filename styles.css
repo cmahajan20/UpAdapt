@@ -4,6 +4,24 @@ body{
     margin: 0rem 5rem 0rem 5rem !important;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    margin: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.nav-link:hover{
+    /* text-decoration: underline; */
+    color: #FFC333;
+    transform: scale(1.1);
+    /* transition: .3s; */
+}
+
 .banner{
     height: 80vh;
 }
@@ -12,9 +30,6 @@ body{
     margin-left: 2rem 5rem 2rem 5rem;
 }
 
-.btn{
-    border-radius: 50px;
-}
 .vbar{
     width: .75rem;
     position: relative;
@@ -75,6 +90,9 @@ body{
     margin-right:2rem ;
 }
 
+.btn:hover{
+    transform: scale(1.01);
+}
 
 
 .icon{
@@ -102,4 +120,53 @@ body{
         display: none;
     }
     
+  }
+
+
+  /* Jobs */
+
+  .job-opening{
+    list-style-type: none;
+    margin: .5rem .25rem .5rem .25rem;
+    padding: .125rem 1rem .1255rem 1rem;
+    width: 100%;
+    border-radius: 2px;
+    background-color: white;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .job-opening:hover{
+    transform: scale(1.02);
+  }
+
+  .job-details{
+    padding: 2rem;
+    border-radius:0rem 2rem 0rem 2rem;
+    background-color: rgb(253, 250, 240);
+  }
+
+
+  /* Accordion */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
   }
