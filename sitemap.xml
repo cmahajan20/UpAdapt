@@ -8,8 +8,19 @@
 
 
 <url>
-  <loc>http://upadapt.co.in/</loc>
-  <lastmod>2022-09-19T06:20:04+00:00</lastmod>
+  <loc>https://upadapt.co.in/</loc>
+  <lastmod>2022-09-22T18:44:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://upadapt.co.in/index.html</loc>
+  <lastmod>2022-09-22T18:44:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://upadapt.co.in/jobs.html</loc>
+  <lastmod>2022-09-22T18:44:31+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
